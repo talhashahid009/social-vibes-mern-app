@@ -7,8 +7,8 @@ import dotenv from 'dotenv';
 import fs from 'fs';
 import path, { dirname } from 'path';
 
-const app = express();
 dotenv.config();
+const app = express();
 const __dirname = path.resolve();
 
 import postRoutes from './routes/posts.js';
