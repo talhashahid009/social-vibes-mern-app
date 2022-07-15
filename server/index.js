@@ -1,5 +1,4 @@
 import dotenv from 'dotenv';
-dotenv.config();
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
@@ -9,6 +8,7 @@ import fs from 'fs';
 import path, { dirname } from 'path';
 
 
+dotenv.config();
 const app = express();
 const __dirname = path.resolve();
 
