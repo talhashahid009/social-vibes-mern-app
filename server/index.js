@@ -1,13 +1,14 @@
+import dotenv from 'dotenv';
+dotenv.config();
 import express from 'express';
 import bodyParser from 'body-parser';
 import cors from 'cors';
 import mongoose from 'mongoose';
 import morgan from 'morgan';
-import dotenv from 'dotenv';
 import fs from 'fs';
 import path, { dirname } from 'path';
 
-dotenv.config();
+
 const app = express();
 const __dirname = path.resolve();
 
